@@ -30,8 +30,8 @@ namespace ulda_atrisinajums
 
         }
 
-        int darba_samaksa = 15;
-        int PVN = 21;
+        double darba_samaksa = 15;
+        double PVN = 21;
 
         private void but_izveidot_Click(object sender, EventArgs e)
         {
@@ -39,18 +39,18 @@ namespace ulda_atrisinajums
             int gar = varda_ga.Length;
 
             if (
-                int.TryParse(TB_platums.Text, out int platums) &&
-                int.TryParse(TB_augstums.Text, out int augstums) &&
-                int.TryParse(TB_garums.Text, out int garums) &&
-                int.TryParse(TB_kokmateriala.Text, out int materiala_cena))
+                double.TryParse(TB_platums.Text, out double platums) &&
+                double.TryParse(TB_augstums.Text, out double augstums) &&
+                double.TryParse(TB_garums.Text, out double garums) &&
+                double.TryParse(TB_kokmateriala.Text, out double materiala_cena))
             {
-                int charCount = gar;
-                int multipliedCount = (int)(charCount * 1.2);
+                double charCount = gar;
+                double multipliedCount = (double)(charCount * 1.2);
 
                 double produkta_cena = (gar * 1.2) + ((platums / 100.0) * (augstums / 100.0) * (garums / 100.0)) / 3.0 * materiala_cena;
-                int PVN_summa = (int)((produkta_cena + darba_samaksa) * PVN / 100);
+                double PVN_summa = (double)((produkta_cena + darba_samaksa) * PVN / 100);
 
-                int rekina_summa = (int)(produkta_cena + darba_samaksa + PVN_summa);
+                double rekina_summa = (double)(produkta_cena + darba_samaksa + PVN_summa);
 
                 RB_rekins.Text = $"Produkta cena: {produkta_cena:C}\n" +
                                  $"PVN summa: {PVN_summa:C}\n" +
