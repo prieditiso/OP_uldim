@@ -1,0 +1,6 @@
+Vārds op
+Vēlējums op
+Lādītes izmērus(milimetros) 11
+platums 22
+garums 3000
+augstums 150

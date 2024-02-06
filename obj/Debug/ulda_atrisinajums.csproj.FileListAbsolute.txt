@@ -1,0 +1,13 @@
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\ulda_atrisinajums.exe.config
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\ulda_atrisinajums.exe
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\ulda_atrisinajums.pdb
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.csprojAssemblyReference.cache
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.BUT_rekins.resources
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.Properties.Resources.resources
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.csproj.GenerateResource.cache
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.csproj.CoreCompileInputs.cache
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.exe
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.pdb
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\System.Data.SQLite.dll
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\System.Data.SQLite.xml
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.csproj.CopyComplete
