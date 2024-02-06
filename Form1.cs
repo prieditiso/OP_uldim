@@ -68,7 +68,7 @@ namespace ulda_atrisinajums
 
                 SQLiteCommand sqlite_cmd;
                 sqlite_cmd = sqlite_conn.CreateCommand();
-                sqlite_cmd.CommandText = "INSERT INTO ULDA_darbam(Klienta_vards, Velejums, Platums, Garums, Augstums,Komateriala_cena) VALUES('" + TB_vards.Text + "','" + TB_velejums.Text + "','" + TB_platums.Text + "','" + TB_garums.Text + "', '" + TB_augstums.Text + ""+ TB_kokmateriala.Text + "');";
+                sqlite_cmd.CommandText = "INSERT INTO ULDIM_darbam(Klienta_vards, Velejums, Platums, Garums, Augstums, Komateriala_cena) VALUES('" + TB_vards.Text + "','" + TB_velejums.Text + "','" + TB_platums.Text + "','" + TB_garums.Text + "', '" + TB_augstums.Text + "','"+ TB_kokmateriala.Text + "');";
                 sqlite_cmd.ExecuteNonQuery();
             }
             else
