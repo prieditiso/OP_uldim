@@ -49,7 +49,6 @@ namespace ulda_atrisinajums
 
                 double produkta_cena = (gar * 1.2) + ((platums / 100.0) * (augstums / 100.0) * (garums / 100.0)) / 3.0 * materiala_cena;
                 double PVN_summa = (double)((produkta_cena + darba_samaksa) * PVN / 100);
-
                 double rekina_summa = (double)(produkta_cena + darba_samaksa + PVN_summa);
 
                 RB_rekins.Text = $"Produkta cena: {produkta_cena:C}\n" +
@@ -125,12 +124,12 @@ namespace ulda_atrisinajums
 
 
             }
-        }   
+        }
 
+        private void BUT_rekins_Load(object sender, EventArgs e)
+        {
 
-
-        
-
+        }
     }
 
 
