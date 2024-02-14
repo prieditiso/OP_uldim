@@ -1,6 +1,6 @@
-Vārds op
-Vēlējums op
-Lādītes izmērus(milimetros) 12 
-platums 22
-garums 1
-augstums 5
+Vārds asdsad
+Vēlējums asdasd
+Lādītes izmērus(milimetros) 12
+Platums 21
+Garums 12
+Gugstums 11

@@ -11,3 +11,6 @@ Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.pdb
 Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\System.Data.SQLite.dll
 Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\System.Data.SQLite.xml
 Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.csproj.CopyComplete
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroFramework.Design.dll
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroFramework.dll
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroFramework.Fonts.dll

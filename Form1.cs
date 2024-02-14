@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Data.SQLite;
+using MetroFramework.Components; 
 
 
 namespace ulda_atrisinajums
@@ -99,7 +100,7 @@ namespace ulda_atrisinajums
 
         }
 
-        private void BUT_fails_Click(object sender, EventArgs e)
+        private void but_izveidot_Click_1(object sender, EventArgs e)
         {
 
             {
@@ -127,6 +128,16 @@ namespace ulda_atrisinajums
         }
 
         private void BUT_rekins_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BUT_fails_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
