@@ -14,3 +14,4 @@ Z:\2023\ulda_atrisinajums\ulda_atrisinajums\obj\Debug\ulda_atrisinajums.csproj.C
 Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroFramework.Design.dll
 Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroFramework.dll
 Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroFramework.Fonts.dll
+Z:\2023\ulda_atrisinajums\ulda_atrisinajums\bin\Debug\MetroSet UI.dll

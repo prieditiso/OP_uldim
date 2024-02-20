@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Data.SQLite;
-using MetroFramework.Components; 
+using MetroFramework.Components;
+using MetroFramework.Design;
+using MetroSet_UI.Design;
 
 
 namespace ulda_atrisinajums
 { 
-    public partial class BUT_rekins : Form
+    public partial class BUT_rekins : MetroFramework.Forms.MetroForm
     {
         public BUT_rekins()
         {
@@ -140,6 +142,21 @@ namespace ulda_atrisinajums
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void TB_velejums_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MB_aizvert_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void metroSetEllipse1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 

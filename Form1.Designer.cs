@@ -28,192 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BUT_rekins));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.metroSetEllipse1 = new MetroSet_UI.Controls.MetroSetEllipse();
             this.label1 = new System.Windows.Forms.Label();
             this.TB_vards = new System.Windows.Forms.TextBox();
-            this.TB_velejums = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.TB_platums = new System.Windows.Forms.TextBox();
-            this.TB_garums = new System.Windows.Forms.TextBox();
-            this.TB_augstums = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.K = new System.Windows.Forms.Label();
-            this.TB_kokmateriala = new System.Windows.Forms.TextBox();
-            this.RB_rekins = new System.Windows.Forms.RichTextBox();
-            this.but_izveidot = new System.Windows.Forms.Button();
             this.BUT_fails = new System.Windows.Forms.Button();
-            this.Laiks = new MetroFramework.Controls.MetroDateTime();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.TB_velejums = new System.Windows.Forms.TextBox();
+            this.RB_rekins = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.TB_kokmateriala = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.K = new System.Windows.Forms.Label();
+            this.TB_platums = new System.Windows.Forms.TextBox();
+            this.but_izveidot = new System.Windows.Forms.Button();
+            this.TB_garums = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.TB_augstums = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.label1.Location = new System.Drawing.Point(8, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Vārds";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // TB_vards
-            // 
-            this.TB_vards.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TB_vards.Location = new System.Drawing.Point(192, 16);
-            this.TB_vards.Name = "TB_vards";
-            this.TB_vards.Size = new System.Drawing.Size(108, 20);
-            this.TB_vards.TabIndex = 1;
-            this.TB_vards.TextChanged += new System.EventHandler(this.TB_vards_TextChanged);
-            // 
-            // TB_velejums
-            // 
-            this.TB_velejums.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TB_velejums.Location = new System.Drawing.Point(192, 70);
-            this.TB_velejums.Name = "TB_velejums";
-            this.TB_velejums.Size = new System.Drawing.Size(108, 20);
-            this.TB_velejums.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.label2.Location = new System.Drawing.Point(8, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Vēlējums";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.label3.Location = new System.Drawing.Point(108, 118);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Lādītes izmērus(milimetros)";
-            // 
-            // TB_platums
-            // 
-            this.TB_platums.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TB_platums.Location = new System.Drawing.Point(192, 156);
-            this.TB_platums.Name = "TB_platums";
-            this.TB_platums.Size = new System.Drawing.Size(108, 20);
-            this.TB_platums.TabIndex = 5;
-            this.TB_platums.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // TB_garums
-            // 
-            this.TB_garums.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TB_garums.Location = new System.Drawing.Point(192, 196);
-            this.TB_garums.Name = "TB_garums";
-            this.TB_garums.Size = new System.Drawing.Size(108, 20);
-            this.TB_garums.TabIndex = 6;
-            // 
-            // TB_augstums
-            // 
-            this.TB_augstums.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TB_augstums.Location = new System.Drawing.Point(192, 237);
-            this.TB_augstums.Name = "TB_augstums";
-            this.TB_augstums.Size = new System.Drawing.Size(108, 20);
-            this.TB_augstums.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.label4.Location = new System.Drawing.Point(8, 156);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Platums";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.label5.Location = new System.Drawing.Point(8, 196);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Garums";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.label6.Location = new System.Drawing.Point(8, 237);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Gugstums";
-            // 
-            // K
-            // 
-            this.K.AutoSize = true;
-            this.K.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.K.Location = new System.Drawing.Point(8, 293);
-            this.K.Name = "K";
-            this.K.Size = new System.Drawing.Size(124, 13);
-            this.K.TabIndex = 12;
-            this.K.Text = "Kokmateriāla cena E/m2";
-            // 
-            // TB_kokmateriala
-            // 
-            this.TB_kokmateriala.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TB_kokmateriala.Location = new System.Drawing.Point(192, 286);
-            this.TB_kokmateriala.Name = "TB_kokmateriala";
-            this.TB_kokmateriala.Size = new System.Drawing.Size(108, 20);
-            this.TB_kokmateriala.TabIndex = 13;
-            // 
-            // RB_rekins
-            // 
-            this.RB_rekins.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.RB_rekins.Location = new System.Drawing.Point(184, 362);
-            this.RB_rekins.Name = "RB_rekins";
-            this.RB_rekins.Size = new System.Drawing.Size(116, 94);
-            this.RB_rekins.TabIndex = 14;
-            this.RB_rekins.Text = "";
-            // 
-            // but_izveidot
-            // 
-            this.but_izveidot.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.but_izveidot.Location = new System.Drawing.Point(306, 425);
-            this.but_izveidot.Name = "but_izveidot";
-            this.but_izveidot.Size = new System.Drawing.Size(79, 31);
-            this.but_izveidot.TabIndex = 11;
-            this.but_izveidot.Text = "Izveidot\r\n";
-            this.but_izveidot.UseVisualStyleBackColor = false;
-            this.but_izveidot.Click += new System.EventHandler(this.but_izveidot_Click);
-            // 
-            // BUT_fails
-            // 
-            this.BUT_fails.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.BUT_fails.Location = new System.Drawing.Point(306, 362);
-            this.BUT_fails.Name = "BUT_fails";
-            this.BUT_fails.Size = new System.Drawing.Size(79, 31);
-            this.BUT_fails.TabIndex = 15;
-            this.BUT_fails.Text = "Ievietot failā";
-            this.BUT_fails.UseVisualStyleBackColor = false;
-            this.BUT_fails.Click += new System.EventHandler(this.BUT_fails_Click);
-            // 
-            // Laiks
-            // 
-            this.Laiks.Location = new System.Drawing.Point(553, 12);
-            this.Laiks.MinimumSize = new System.Drawing.Size(0, 29);
-            this.Laiks.Name = "Laiks";
-            this.Laiks.Size = new System.Drawing.Size(200, 29);
-            this.Laiks.TabIndex = 16;
-            // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Navy;
+            this.panel1.BackColor = System.Drawing.Color.AntiqueWhite;
             this.panel1.BackgroundImage = global::ulda_atrisinajums.Properties.Resources.images;
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.metroSetEllipse1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.TB_vards);
             this.panel1.Controls.Add(this.BUT_fails);
@@ -230,31 +72,147 @@
             this.panel1.Controls.Add(this.TB_augstums);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(29, 36);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(393, 504);
-            this.panel1.TabIndex = 17;
             // 
-            // panel2
+            // metroSetEllipse1
             // 
-            this.panel2.BackgroundImage = global::ulda_atrisinajums.Properties.Resources.images__2_;
-            this.panel2.Location = new System.Drawing.Point(511, 322);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(212, 229);
-            this.panel2.TabIndex = 18;
+            this.metroSetEllipse1.BorderThickness = 7;
+            this.metroSetEllipse1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.metroSetEllipse1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.metroSetEllipse1.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            resources.ApplyResources(this.metroSetEllipse1, "metroSetEllipse1");
+            this.metroSetEllipse1.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.metroSetEllipse1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.metroSetEllipse1.HoverTextColor = System.Drawing.Color.White;
+            this.metroSetEllipse1.Image = global::ulda_atrisinajums.Properties.Resources.labaks;
+            this.metroSetEllipse1.ImageSize = new System.Drawing.Size(64, 64);
+            this.metroSetEllipse1.IsDerivedStyle = true;
+            this.metroSetEllipse1.Name = "metroSetEllipse1";
+            this.metroSetEllipse1.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.metroSetEllipse1.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroSetEllipse1.NormalTextColor = System.Drawing.Color.Black;
+            this.metroSetEllipse1.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.metroSetEllipse1.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.metroSetEllipse1.PressTextColor = System.Drawing.Color.White;
+            this.metroSetEllipse1.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetEllipse1.ThemeAuthor = null;
+            this.metroSetEllipse1.ThemeName = null;
+            this.metroSetEllipse1.Click += new System.EventHandler(this.metroSetEllipse1_Click);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.HotPink;
+            this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // TB_vards
+            // 
+            this.TB_vards.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.TB_vards, "TB_vards");
+            this.TB_vards.Name = "TB_vards";
+            this.TB_vards.TextChanged += new System.EventHandler(this.TB_vards_TextChanged);
+            // 
+            // BUT_fails
+            // 
+            this.BUT_fails.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.BUT_fails, "BUT_fails");
+            this.BUT_fails.Name = "BUT_fails";
+            this.BUT_fails.UseVisualStyleBackColor = false;
+            this.BUT_fails.Click += new System.EventHandler(this.BUT_fails_Click);
+            // 
+            // TB_velejums
+            // 
+            this.TB_velejums.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.TB_velejums, "TB_velejums");
+            this.TB_velejums.Name = "TB_velejums";
+            this.TB_velejums.TextChanged += new System.EventHandler(this.TB_velejums_TextChanged);
+            // 
+            // RB_rekins
+            // 
+            this.RB_rekins.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.RB_rekins, "RB_rekins");
+            this.RB_rekins.Name = "RB_rekins";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.HotPink;
+            this.label2.Name = "label2";
+            // 
+            // TB_kokmateriala
+            // 
+            this.TB_kokmateriala.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.TB_kokmateriala, "TB_kokmateriala");
+            this.TB_kokmateriala.Name = "TB_kokmateriala";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.BackColor = System.Drawing.Color.HotPink;
+            this.label3.Name = "label3";
+            // 
+            // K
+            // 
+            resources.ApplyResources(this.K, "K");
+            this.K.BackColor = System.Drawing.Color.HotPink;
+            this.K.Name = "K";
+            // 
+            // TB_platums
+            // 
+            this.TB_platums.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.TB_platums, "TB_platums");
+            this.TB_platums.Name = "TB_platums";
+            this.TB_platums.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // but_izveidot
+            // 
+            this.but_izveidot.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.but_izveidot, "but_izveidot");
+            this.but_izveidot.Name = "but_izveidot";
+            this.but_izveidot.UseVisualStyleBackColor = false;
+            this.but_izveidot.Click += new System.EventHandler(this.but_izveidot_Click);
+            // 
+            // TB_garums
+            // 
+            this.TB_garums.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.TB_garums, "TB_garums");
+            this.TB_garums.Name = "TB_garums";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.BackColor = System.Drawing.Color.HotPink;
+            this.label6.Name = "label6";
+            // 
+            // TB_augstums
+            // 
+            this.TB_augstums.BackColor = System.Drawing.Color.HotPink;
+            resources.ApplyResources(this.TB_augstums, "TB_augstums");
+            this.TB_augstums.Name = "TB_augstums";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.BackColor = System.Drawing.Color.HotPink;
+            this.label5.Name = "label5";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.BackColor = System.Drawing.Color.HotPink;
+            this.label4.Name = "label4";
             // 
             // BUT_rekins
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImage = global::ulda_atrisinajums.Properties.Resources.Lembergs_Reinis_Inkens_Saeima;
-            this.ClientSize = new System.Drawing.Size(800, 602);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.Laiks);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "BUT_rekins";
-            this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.SystemColors.Info;
             this.Load += new System.EventHandler(this.BUT_rekins_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -280,9 +238,8 @@
         private System.Windows.Forms.RichTextBox RB_rekins;
         private System.Windows.Forms.Button but_izveidot;
         private System.Windows.Forms.Button BUT_fails;
-        private MetroFramework.Controls.MetroDateTime Laiks;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private MetroSet_UI.Controls.MetroSetEllipse metroSetEllipse1;
     }
 }
 

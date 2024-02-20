@@ -113,6 +113,16 @@ namespace ulda_atrisinajums.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap labaks {
+            get {
+                object obj = ResourceManager.GetObject("labaks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lebis {
             get {
                 object obj = ResourceManager.GetObject("lebis", resourceCulture);
@@ -136,6 +146,16 @@ namespace ulda_atrisinajums.Properties {
         internal static System.Drawing.Bitmap pd {
             get {
                 object obj = ResourceManager.GetObject("pd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap X {
+            get {
+                object obj = ResourceManager.GetObject("X", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
